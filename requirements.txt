@@ -1,0 +1,26 @@
+"""
+requirements.txt for POMABuster research reproduction
+Generated during Phase 1 setup
+"""
+# Core data science
+jupyter>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Web scraping (for Etherscan token data)
+scrapy>=2.9.0
+itemadapter>=0.8.0
+
+# Ethereum / Blockchain
+web3>=7.0.0
+requests>=2.31.0
+
+# Data storage and serialization
+jsonlines>=3.1.0
+
+# BigQuery (optional - for alternative data source)
+# google-cloud-bigquery>=3.11.0
+
+# Ethereum-ETL (optional - for direct blockchain extraction)
+# ethereum-etl>=2.1.0
