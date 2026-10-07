@@ -1,0 +1,74 @@
+[
+  {
+    "block_number": 1000,
+    "transaction_hash": "0x_attack_pom",
+    "log_index": 0,
+    "asset": "WBTC",
+    "sender": "0x_attacker",
+    "receiver": "0x_pool1",
+    "amount": 50000
+  },
+  {
+    "block_number": 1000,
+    "transaction_hash": "0x_attack_pom",
+    "log_index": 1,
+    "asset": "WETH",
+    "sender": "0x_pool1",
+    "receiver": "0x_attacker",
+    "amount": 1000000
+  },
+  {
+    "block_number": 1001,
+    "transaction_hash": "0x_attack_arb",
+    "log_index": 0,
+    "asset": "WETH",
+    "sender": "0x_attacker2",
+    "receiver": "0x_pool2",
+    "amount": 500
+  },
+  {
+    "block_number": 1001,
+    "transaction_hash": "0x_attack_arb",
+    "log_index": 1,
+    "asset": "USDC",
+    "sender": "0x_pool2",
+    "receiver": "0x_attacker2",
+    "amount": 1000000
+  },
+  {
+    "block_number": 1001,
+    "transaction_hash": "0x_attack_arb",
+    "log_index": 2,
+    "asset": "USDC",
+    "sender": "0x_attacker2",
+    "receiver": "0x_pool3",
+    "amount": 1000000
+  },
+  {
+    "block_number": 1001,
+    "transaction_hash": "0x_attack_arb",
+    "log_index": 3,
+    "asset": "WETH",
+    "sender": "0x_pool3",
+    "receiver": "0x_attacker2",
+    "amount": 550
+  },
+  {
+    "block_number": 1005,
+    "transaction_hash": "0x_benign_trade",
+    "log_index": 0,
+    "asset": "WETH",
+    "sender": "0x_user",
+    "receiver": "0x_pool1",
+    "amount": 5
+  },
+  {
+    "block_number": 1005,
+    "transaction_hash": "0x_benign_trade",
+    "log_index": 1,
+    "asset": "WBTC",
+    "sender": "0x_pool1",
+    "receiver": "0x_user",
+    "amount": 0.3
+  }
+]
